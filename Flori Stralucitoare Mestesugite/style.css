@@ -1,0 +1,55 @@
+.Bottom{ 
+    position: fixed;
+    bottom: 0;
+    font-size: 15px; 
+    height: 50px;
+    padding: 10px;
+}
+
+.Detalii{
+    bottom:50px;
+    height:200px;
+    position:fixed;
+    border-collapse:separate;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width:1px;
+    width:100%;
+}
+
+.Detalii table th,td{
+    padding-right:250px;
+    padding-left:100px;
+}
+
+#FaraPadding{
+    padding-right:0px !important;
+}
+
+.Detalii a{
+    text-decoration:none;
+    color: black;
+}
+
+.TopBar{
+    top:0;
+    border-collapse:separate;
+    width: 100%;
+}
+
+.TopBar table th{
+    padding-right:700px;
+    padding-left:50px;
+    height: 30px;
+}
+
+#SearchBar{
+    display:flex;
+    padding:0;
+    width:300;
+    background-color: lightgray;
+    height: 30px;
+    width:300px;
+    border-radius:10px;
+}
+
